@@ -19,6 +19,7 @@ unsigned int texture;
  */
 Vector3D mult(Matrix3x3 mat, Vector3D input) {
     /* TODO */
+    return mat[0] * input.x + mat[1] * input.y + mat[2] * input.z;
     return input;
 }
 
